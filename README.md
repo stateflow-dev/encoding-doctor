@@ -55,7 +55,7 @@ enc-doctor license
 enc-doctor deactivate
 ```
 
-Get your license → [stateflow.dev/encoding-doctor](https://stateflow.dev/encoding-doctor)
+Get your license → [stateflow.dev/encoding-doctor](https://stateflow-dev.github.io/stateflowlabs/)
 
 ---
 
