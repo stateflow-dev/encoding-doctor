@@ -55,7 +55,7 @@ enc-doctor license
 enc-doctor deactivate
 ```
 
-Get your license → [stateflow.dev/encoding-doctor](https://stateflow-dev.github.io/stateflowlabs/)
+Get your license → [stateflow.dev/encoding-doctor](https://stateflow-dev.github.io/stateflowlabs)
 
 ---
 
@@ -91,6 +91,22 @@ enc-doctor fix    <path> [--dry-run]   # --dry-run previews without writing
 enc-doctor verify <path>
 enc-doctor restore <file>              # restore single file from .bak
 ```
+
+---
+
+## Security
+
+encoding-doctor ships with **zero third-party dependencies** — checked automatically before every release.
+
+| Check | Tool | Result |
+|---|---|---|
+| Static analysis | `bandit` | 0 high · 0 medium · 0 low severity issues |
+| Dependency scan | `pip-audit` | 0 known CVE vulnerabilities |
+| Import audit | AST parser | 0 third-party imports — standard library only |
+
+Standard library modules used: `dataclasses`, `json`, `os`, `pathlib`, `platform`, `shutil`, `sys`, `typing`, `urllib`.
+
+Want to verify it yourself? Clone [this repository](https://github.com/stateflow-dev/encoding-doctor) and run `python security_report.py` from its root — the script ships with the source on GitHub.
 
 ---
 
