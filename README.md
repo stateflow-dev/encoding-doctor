@@ -106,8 +106,6 @@ encoding-doctor ships with **zero third-party dependencies** — checked automat
 
 Standard library modules used: `dataclasses`, `json`, `os`, `pathlib`, `platform`, `shutil`, `sys`, `typing`, `urllib`.
 
-Want to verify it yourself? Clone [this repository](https://github.com/stateflow-dev/encoding-doctor) and run `python security_report.py` from its root — the script ships with the source on GitHub.
-
 ---
 
 ## Run tests
