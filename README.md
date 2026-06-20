@@ -1,4 +1,4 @@
-# encoding-doctor
+# encfix-precision
 
 **Scan, fix, and verify file encoding issues across your project in one command.**
 
@@ -12,7 +12,7 @@ Built from real encoding bugs found in production Python projects on Windows.
 ## Install
 
 ```bash
-pip install encoding-doctor
+pip install encfix-precision
 ```
 
 ---
